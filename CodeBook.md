@@ -36,7 +36,7 @@ Variable Description
 |Variable | Description|
 |------------- | -------------|
 |subject	| Subject |
-|activities	| The activity performed|
+|activity	| The activity performed|
 |tbodyacc-mean-x	| Mean time for acceleration of body for X direction|
 |tbodyacc-mean-y	| Mean time for acceleration of body for Y direction|
 |tbodyacc-mean-z	| Mean time for acceleration of body for Z direction|
