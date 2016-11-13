@@ -41,10 +41,25 @@ library(data.table)
 ## Script
 
 1. [Step 1] Uses rbind to merge data from train and test sets. (variables, activities and subjects)
+    ```{r}
+mergeDS()
+    ```
 2. [Step 2] Uses grep function to search by mean() and std() variables with a regex.
+    ```{r}
+getMeanAndStd(ds_no_links)
+    ```
 3. [Step 3] Bind two columns, with the activity ids and the subjects numbers. For each activity ids its used the data set for the activity     labes to appropriately name them.
+    ```{r}
+assignActivityName(ds)
+    ```
 4. [Step 4] Uses names() function to appropriately name the variables and create the merged_ds.txt with the tidy and merged data set.
+    ```{r}
+assignVariablesLabel(ds)
+    ```
 5. [Step 5] Uses aggregate() function to create a data set with the average of each variable for each activity and each subject, named average_ds and create its .txt file.
+    ```{r}
+reateAverageDS(ds)
+    ```
   
 
 ## Outputs
