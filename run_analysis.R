@@ -1,4 +1,3 @@
-setwd("C:/Users/G1511NEW/Documents/Coursera - Data Analyse/Course 4")
 library(RCurl)
 library(data.table)
 
